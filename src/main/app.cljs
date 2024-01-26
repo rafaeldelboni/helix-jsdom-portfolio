@@ -6,12 +6,12 @@
             [main.component :as c]))
 
 (defnc app []
-  (d/div (d/h1 "helix-jsdom") 
+  (d/div (d/h1 "helix-jsdom")
          ($ c/component-boolean {:value true})))
 
 (defonce root
-  (rdom/createRoot 
-    (js/document.getElementById "app")))
+  (rdom/createRoot
+   (js/document.getElementById "app")))
 
 (defn render []
   (.render root ($ app)))
