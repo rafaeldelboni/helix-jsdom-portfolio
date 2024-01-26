@@ -30,3 +30,9 @@ npm run watch app tests
 # Start application, tests and portfolio
 npm run watch app tests portfolio
 ```
+
+## Used software
+- [shadow-cljs](https://github.com/thheller/shadow-cljs)
+- [helix](https://github.com/lilactown/helix)
+- [jsdom](https://github.com/jsdom/jsdom)
+- [portfolio](https://github.com/cjohansen/portfolio)
